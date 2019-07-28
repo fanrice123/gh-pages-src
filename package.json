@@ -4,15 +4,20 @@
   "private": true,
   "homepage": "https://fanrice123.github.io/gh-pages",
   "dependencies": {
+    "@material-ui/core": "^4.2.1",
+    "@material-ui/icons": "^4.2.1",
     "@types/jest": "24.0.15",
     "@types/node": "12.6.8",
     "@types/react": "16.8.23",
     "@types/react-dom": "16.8.5",
+    "@types/react-helmet": "^5.0.8",
+    "@types/react-router-dom": "^4.3.4",
     "gh-pages": "^2.0.1",
     "lodash.template": "^4.5.0",
-    "material-kit-react": "^1.7.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
     "typescript": "3.5.3"
   },
@@ -22,7 +27,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "debug": "nodemon --debug "
   },
   "eslintConfig": {
     "extends": "react-app"
